@@ -4,9 +4,7 @@ import re
 from bs4 import BeautifulSoup
 from loguru import logger
 
-from app.utils import ParamsDto
-from app.utils.camoufox import CamoufoxBrowser
-from app.utils.server.exceptions.parametros import ParamsError
+from app.utils import ParamsDto, CamoufoxBrowser, ParamsError
 
 
 class PortalTransparencia:
